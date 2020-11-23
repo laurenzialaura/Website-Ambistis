@@ -1,0 +1,25 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Belajar Bareng Ambistis"
+theme = "hugo-lithium"
+googleAnalytics = "UA-4xxx"
+disqusShortname = "BimbelAmbistis"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
+
+[permalinks]
+    post = "/:slug/"
+    
+[[menu.main]]
+    name = "Contact Us"
+    url = "/:About-Us/"
+   
+[params]
+    [params.about]
+    title = "Bimbel Ambistis"
+    description = "Website Belajar Bareng Ambistis"
+
+    [params.logo]
+    url = "logoambistis.png"
+    width = 50
+    height = 50
+    alt = "Bimbel Ambistis"
